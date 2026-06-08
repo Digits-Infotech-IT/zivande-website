@@ -1,0 +1,81 @@
+/website-cloner
+/website-cloner https://prozen.vercel.app/index.html
+
+please clone this html website "https://prozen.vercel.app/index.html", the output result website should be in html it can use vanilla javascirpt if there anywhere they need to use in the website page developments , the company doing some consulting services , so the content can be focused on this services related contents
+
+ Section 1: IT Services & Consulting
+•	IT Services 
+End to end support covering infrastructure, applications, and user needs. 
+•	IT Consulting 
+Strategic advice aligning IT with business goals. 
+•	Target Operating Model 
+Blueprint for how IT supports operations efficiently. 
+•	IT Governance Model 
+Framework ensuring compliance, accountability, and decision making. 
+•	Enterprise IT Assessment 
+Evaluating IT maturity, risks, and opportunities. 
+•	Enterprise Architecture 
+Structural design aligning IT systems with business strategy. 
+•	Enterprise Capability Management 
+Managing skills, processes, and tools for IT excellence. 
+•	Product & Service Value Strategize 
+Maximizing ROI from IT products and services. 
+Section 2: Optimization
+Process
+•	Software Development 
+Agile, iterative coding for scalable solutions. 
+•	Application Development 
+Building enterprise apps tailored to workflows. 
+•	Mobile Application Development 
+Creating responsive mobile apps. 
+Business
+•	Business Process Optimization 
+Streamlining workflows for efficiency. 
+•	Process Standards & Compliance 
+Ensuring adherence to industry standards.
+•	Operational Excellency 
+Continuous improvement culture. 
+•	Agility & Sustainable Business 
+Flexible strategies for long term growth. 
+Section 3: Infrastructure & Compliance
+•	Infrastructure Services 
+Managing servers, networks, and cloud. 
+•	IT Compliance & Audit 
+Ensuring regulatory adherence. 
+•	Infrastructure Modernization 
+Upgrading legacy systems. 
+•	Application Modernization 
+Refactoring apps for scalability.
+Section 4: Enterprise Operations
+•	Supply Chain Management 
+Coordinating goods and services flow.
+•	Asset Management 
+Tracking and optimizing resources. 
+•	Logistics Management 
+Efficient transport and distribution. 
+•	Customer Relationship Management 
+Building strong client connections. 
+Section 5: Digital Transformation & Emerging Tech
+•	Digital Transformation 
+Integrating digital tools across business.
+•	Artificial Intelligence
+Smart automation and insights. 
+•	Machine Learning 
+Algorithms learning from data. 
+•	Deep Learning 
+Neural networks for complex tasks. 
+•	Natural Language Processing 
+Understanding human language. 
+•	Data Analytics 
+Turning data into insights. 
+•	IoT 
+Connected devices ecosystem. 
+Section 6: Digital Marketing
+•	Digital Marketing 
+Online strategies to reach customers.
+•	SEO 
+Optimizing visibility on search engines. 
+
+
+
+as per the given list , the website has to showcase about these services, the top menu can have Home, AboutUs, Services, Contact links , the website theme can be changed later so create and use CSS based on this . the company name is Zivande
