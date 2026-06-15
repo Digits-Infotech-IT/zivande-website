@@ -176,6 +176,7 @@
         .cat-card {
             background: var(--color-white); border-radius: var(--radius-card); padding: 36px 30px;
             position: relative; overflow: hidden; border: 1px solid transparent; transition: var(--transition);
+            display: block; text-decoration: none; cursor: pointer;
         }
         .cat-card::after { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--color-accent); opacity: 0; transition: var(--transition); }
         .cat-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: rgba(195,223,148,0.4); }
@@ -503,83 +504,83 @@
             <p>From IT strategy to digital transformation, Zivande provides comprehensive consulting services tailored to your business needs.</p>
         </div>
         <div class="cat-grid">
-            <div class="cat-card"><span class="cc-num">01</span><div class="cc-icon"><i class="fa-solid fa-server"></i></div><h3>IT Services &amp; Consulting</h3><p>End-to-end IT support, strategy, governance, and enterprise architecture aligned to your business goals.</p></div>
-            <div class="cat-card"><span class="cc-num">02</span><div class="cc-icon"><i class="fa-solid fa-gears"></i></div><h3>Optimization</h3><p>Process and business optimization through software development, agile practices, and operational excellence.</p></div>
-            <div class="cat-card"><span class="cc-num">03</span><div class="cc-icon"><i class="fa-solid fa-shield-halved"></i></div><h3>Infrastructure &amp; Compliance</h3><p>Secure, modern infrastructure services including cloud management, compliance audits, and modernization.</p></div>
-            <div class="cat-card"><span class="cc-num">04</span><div class="cc-icon"><i class="fa-solid fa-building"></i></div><h3>Enterprise Operations</h3><p>Supply chain, asset management, logistics, and CRM solutions for streamlined enterprise operations.</p></div>
-            <div class="cat-card"><span class="cc-num">05</span><div class="cc-icon"><i class="fa-solid fa-brain"></i></div><h3>Digital Transformation &amp; AI</h3><p>Cutting-edge AI, ML, deep learning, NLP, data analytics, and IoT solutions for the modern enterprise.</p></div>
-            <div class="cat-card"><span class="cc-num">06</span><div class="cc-icon"><i class="fa-solid fa-chart-line"></i></div><h3>Digital Marketing</h3><p>Strategic digital marketing and SEO services to amplify your brand reach and drive measurable growth.</p></div>
+            <a class="cat-card" href="#svc-it-consulting"><span class="cc-num">01</span><div class="cc-icon"><i class="fa-solid fa-server"></i></div><h3>IT Services &amp; Consulting</h3><p>End-to-end IT support, strategy, governance, and enterprise architecture aligned to your business goals.</p></a>
+            <a class="cat-card" href="#svc-optimization"><span class="cc-num">02</span><div class="cc-icon"><i class="fa-solid fa-gears"></i></div><h3>Optimization</h3><p>Process and business optimization through software development, agile practices, and operational excellence.</p></a>
+            <a class="cat-card" href="#svc-infrastructure"><span class="cc-num">03</span><div class="cc-icon"><i class="fa-solid fa-shield-halved"></i></div><h3>Infrastructure &amp; Compliance</h3><p>Secure, modern infrastructure services including cloud management, compliance audits, and modernization.</p></a>
+            <a class="cat-card" href="#svc-enterprise"><span class="cc-num">04</span><div class="cc-icon"><i class="fa-solid fa-building"></i></div><h3>Enterprise Operations</h3><p>Supply chain, asset management, logistics, and CRM solutions for streamlined enterprise operations.</p></a>
+            <a class="cat-card" href="#svc-digital-transformation"><span class="cc-num">05</span><div class="cc-icon"><i class="fa-solid fa-brain"></i></div><h3>Digital Transformation &amp; AI</h3><p>Cutting-edge AI, ML, deep learning, NLP, data analytics, and IoT solutions for the modern enterprise.</p></a>
+            <a class="cat-card" href="#svc-digital-marketing"><span class="cc-num">06</span><div class="cc-icon"><i class="fa-solid fa-chart-line"></i></div><h3>Digital Marketing</h3><p>Strategic digital marketing and SEO services to amplify your brand reach and drive measurable growth.</p></a>
         </div>
     </div>
 </section>
 
 <!-- SECTION 1: IT SERVICES & CONSULTING -->
-<section class="svc-section dark">
+<section class="svc-section dark" id="svc-it-consulting">
     <div class="container">
         <div class="section-title">
             <span class="label">Section 01</span>
             <h2>IT Services &amp; Consulting</h2>
-            <p>Strategic IT guidance and end-to-end operational support designed to align technology with your business objectives.</p>
+            <p>End-to-end technology services and strategic consulting designed to align IT capabilities with your business goals and drive sustainable growth.</p>
         </div>
-        <div class="svc-grid">
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-headset"></i></div><h4>IT Services</h4><p>End to end support covering infrastructure, applications, and user needs across your entire organization.</p></div>
-            <!-- <div class="svc-card"><div class="ic"><i class="fa-solid fa-chess"></i></div><h4>IT Consulting</h4><p>Strategic advice aligning IT investments and capabilities with your core business goals and long-term vision.</p></div> -->
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-diagram-project"></i></div><h4>Target Operating Model</h4><p>Blueprint for how IT supports operations efficiently, defining roles, processes, and technology integration.</p></div>
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-scale-balanced"></i></div><h4>IT Governance Model</h4><p>Framework ensuring compliance, accountability, and effective decision-making across all IT domains.</p></div>
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h4>Enterprise IT Assessment</h4><p>Evaluating IT maturity, identifying risks and opportunities to build a stronger technology foundation.</p></div>
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-sitemap"></i></div><h4>Enterprise Architecture</h4><p>Structural design aligning IT systems with business strategy for scalable, resilient enterprise operations.</p></div>
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-cubes"></i></div><h4>Enterprise Capability Management</h4><p>Managing skills, processes, and tools to achieve IT excellence and sustained competitive advantage.</p></div>
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-gem"></i></div><h4>Product &amp; Service Value Strategy</h4><p>Maximizing ROI from IT products and services through strategic value realization frameworks.</p></div>
+        <div class="svc-group">
+            <div class="group-label"><h3>IT Services</h3><div class="gl-line"></div></div>
+            <div class="svc-grid cols3">
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-code"></i></div><h4>Software Development</h4><p>Agile, iterative software delivery producing scalable, high-quality solutions tailored to your business needs.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-window-restore"></i></div><h4>Application Development</h4><p>Purpose-built enterprise applications designed around your unique workflows and operational requirements.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-mobile-screen"></i></div><h4>Mobile Application Development</h4><p>High-performance iOS and Android apps that deliver seamless user experiences across all devices.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-cart-shopping"></i></div><h4>Ecommerce Portals</h4><p>Robust, conversion-optimised ecommerce platforms that scale with your business and delight customers.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-plug"></i></div><h4>Enterprise Integrations</h4><p>Seamless integration of systems, APIs, and data sources to create a connected, efficient enterprise ecosystem.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-headset"></i></div><h4>E2E Support &amp; Maintenance</h4><p>Comprehensive end-to-end support and proactive maintenance covering your entire IT landscape and applications.</p></div>
+            </div>
         </div>
-    </div>
-</section>
-<!-- SECTION 4: ENTERPRISE OPERATIONS -->
-<section class="svc-section white">
-    <div class="container">
-        <div class="section-title">
-            <span class="label">Section 02</span>
-            <h2>IT Consulting</h2>
-            <p>We build scalable software, enterprise applications, and high-performance mobile apps using agile practices—tailored to your business needs and delivered on time.</p>
-        </div>
-        <div class="svc-grid">
-            <div class="svc-card"><div class="ic"><i class="fa-solid fa-code"></i></div><h4>Software Development</h4><p>Agile, iterative coding practices delivering scalable, high-quality software solutions on time.</p></div>
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-window-restore"></i></div><h4>Application Development</h4><p>Building enterprise applications tailored to your unique workflows and operational requirements.</p></div>
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-mobile-screen"></i></div><h4>Mobile Application Development</h4><p>Creating responsive, high-performance mobile apps for iOS and Android platforms.</p></div>
+        <div class="svc-group">
+            <div class="group-label"><h3>IT Consulting</h3><div class="gl-line"></div></div>
+            <div class="svc-grid">
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-chess"></i></div><h4>Strategic Alignment</h4><p>Aligning IT investments and capabilities with your core business strategy to maximise value and competitive edge.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h4>IT Assessment</h4><p>Evaluating IT maturity, infrastructure, and processes to identify risks, gaps, and improvement opportunities.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-chart-bar"></i></div><h4>Gap Analysis</h4><p>Pinpointing the distance between your current IT state and the capabilities needed to achieve business objectives.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-eye"></i></div><h4>Vision &amp; Mission</h4><p>Defining a clear IT vision and mission that underpins strategic direction and organisational alignment.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-map"></i></div><h4>Strategize &amp; Guidelines</h4><p>Crafting actionable IT strategies and governance guidelines that translate vision into measurable outcomes.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-road"></i></div><h4>Roadmap</h4><p>Structured, milestone-driven roadmaps that guide your technology evolution with clarity and confidence.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-leaf"></i></div><h4>Sustainable IT</h4><p>Future-proofing your IT environment through sustainable practices, green technology, and resilient architectures.</p></div>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- SECTION 2: OPTIMIZATION -->
-<section class="svc-section light">
+<section class="svc-section light" id="svc-optimization">
     <div class="container">
         <div class="section-title">
-            <span class="label">Section 03</span>
+            <span class="label">Section 02</span>
             <h2>Optimization</h2>
-            <p>Drive efficiency and agility through targeted process and business optimization strategies.</p>
+            <p>Drive efficiency, agility, and sustainable performance through targeted process and business optimisation strategies.</p>
         </div>
-        <!-- <div class="svc-group">
-            <div class="group-label"><h3>Process Optimization</h3><div class="gl-line"></div></div>
-            <div class="svc-grid cols3">
-                
-            </div>
-        </div> -->
         <div class="svc-group">
-            <div class="group-label"><h3>Business Optimization</h3><div class="gl-line"></div></div>
+            <div class="group-label"><h3>Process</h3><div class="gl-line"></div></div>
+            <div class="svc-grid cols3">
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-gears"></i></div><h4>Workflow Automation</h4><p>Streamlines repetitive tasks, improves efficiency, enhances collaboration, increases productivity, and enables faster decision-making across your organisation.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-brain"></i></div><h4>AI Integrated Workflow</h4><p>Embedding intelligent automation and AI capabilities into your workflows to unlock smarter, faster, and more adaptive business processes.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-arrows-spin"></i></div><h4>Continuous Improvements</h4><p>Cultivating a culture of ongoing refinement — iteratively identifying and eliminating inefficiencies to deliver lasting performance gains.</p></div>
+            </div>
+        </div>
+        <div class="svc-group">
+            <div class="group-label"><h3>Business</h3><div class="gl-line"></div></div>
             <div class="svc-grid">
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-arrows-spin"></i></div><h4>Business Process Optimization</h4><p>Streamlining workflows and eliminating bottlenecks to unlock operational efficiency gains.</p></div>
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-certificate"></i></div><h4>Process Standards &amp; Compliance</h4><p>Ensuring strict adherence to industry standards, regulations, and recognized best practices.</p></div>
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-trophy"></i></div><h4>Operational Excellency</h4><p>Embedding a continuous improvement culture that drives lasting, measurable performance gains.</p></div>
-                <div class="svc-card"><div class="ic"><i class="fa-solid fa-leaf"></i></div><h4>Agility &amp; Sustainable Business</h4><p>Flexible strategies and frameworks for sustainable, long-term business growth and resilience.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-diagram-project"></i></div><h4>Business Process Optimisation &amp; Management</h4><p>End-to-end analysis, redesign, and management of business processes to maximise throughput and reduce operational waste.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-scale-balanced"></i></div><h4>Assess &amp; Advise on Standards &amp; Compliance</h4><p>Evaluating processes against industry standards and regulatory requirements, then providing actionable guidance to close compliance gaps.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-trophy"></i></div><h4>Operational Excellency</h4><p>Implementing best-practice frameworks that embed efficiency, quality, and accountability across every layer of your operations.</p></div>
+                <div class="svc-card"><div class="ic"><i class="fa-solid fa-seedling"></i></div><h4>Agility &amp; Sustainable Business</h4><p>Flexible, future-ready strategies that strengthen business resilience, accelerate response to change, and support long-term sustainable growth.</p></div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- SECTION 3: INFRASTRUCTURE & COMPLIANCE -->
-<section class="svc-section dark">
+<section class="svc-section dark" id="svc-infrastructure">
     <div class="container">
         <div class="section-title">
-            <span class="label">Section 04</span>
+            <span class="label">Section 03</span>
             <h2>Infrastructure &amp; Compliance</h2>
             <p>Secure, reliable infrastructure management and compliance services that keep your business protected and agile.</p>
         </div>
@@ -593,10 +594,10 @@
 </section>
 
 <!-- SECTION 4: ENTERPRISE OPERATIONS -->
-<section class="svc-section white">
+<section class="svc-section white" id="svc-enterprise">
     <div class="container">
         <div class="section-title">
-            <span class="label">Section 05</span>
+            <span class="label">Section 04</span>
             <h2>Enterprise Operations</h2>
             <p>Integrated enterprise operations solutions that optimize your supply chain, assets, and customer relationships.</p>
         </div>
@@ -640,7 +641,7 @@
 </section>
 
 <!-- SECTION 5: DIGITAL TRANSFORMATION & AI -->
-<section class="svc-section dark">
+<section class="svc-section dark" id="svc-digital-transformation">
     <div class="container">
         <div class="section-title">
             <span class="label">Section 05</span>
@@ -660,7 +661,7 @@
 </section>
 
 <!-- SECTION 6: DIGITAL MARKETING -->
-<section class="svc-section light">
+<section class="svc-section light" id="svc-digital-marketing">
     <div class="container">
         <div class="section-title">
             <span class="label">Section 06</span>
